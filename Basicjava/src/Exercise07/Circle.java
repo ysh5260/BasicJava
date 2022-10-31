@@ -15,6 +15,6 @@ public class Circle extends Shape{
 		return 2.0*Math.PI*radius;
 	}
 	public String toString() {
-		return String.format("도형의 종류: 원, 둘레: %.15fcm, 넓이:%.15fcm²", perimeter(),area());
+		return String.format("도형의 종류: 원, 둘레: %.15fcm, 넓이:%.15fcm²", perimeter(),area()); //소숫점 아래 15자리 까지 출력
 	}
 }

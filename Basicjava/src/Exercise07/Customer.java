@@ -5,7 +5,7 @@ import java.text.DecimalFormat;
 public class Customer{
 	private String firstName;
 	private String lastName;
-	private BankAccount[] accounts; //사용자 정의 타입인 클래스형 변수
+	private BankAccount[] accounts; 
 	private int numberOfAccounts;
 
 	DecimalFormat formatter = new DecimalFormat("###,###"); // 숫자에 세자리 마다 , 를 찍어주는 함수 출력은 String 임
