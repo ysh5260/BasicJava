@@ -2,11 +2,11 @@ package chapter06;
 
 public class MethodExampleclass {
 	double divide(int x, int y) {
-		double result = (double)x/y;
-		return result;
+		return (double)x/y;
 	}
 	void run() {
-		divide(10,20);
+		double divide = divide(10,20);
+		System.out.println(divide);
 	}
 	public static void main(String[] args) {
 		MethodExampleclass class1 =new MethodExampleclass();
