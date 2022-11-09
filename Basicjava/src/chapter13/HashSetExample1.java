@@ -4,8 +4,6 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-import chapter11.Student;
-
 public class HashSetExample1 {
 	public static void main(String[] args) {
 		Set<Student> set = new HashSet<Student>();
@@ -17,7 +15,7 @@ public class HashSetExample1 {
 		Iterator<Student> iterator = set.iterator();
 		while(iterator.hasNext()) {
 			Student student = iterator.next();
-			System.out.println(student.studentNum + ":" +student.name);
+			System.out.println(student.studentNum + ":" + student.name);
 		}
 	}
 }

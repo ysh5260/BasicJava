@@ -26,5 +26,5 @@ public class Student {
 			return false;
 		Student other = (Student) obj;
 		return studentNum == other.studentNum;
-	}	
+	}
 }
